@@ -14,7 +14,7 @@ jobs:
     name: second job to run
     runs-on: windows-latest
     steps:
-     - name: step-one of job2
+     - name: Step-one of job2
        uses: actions/checkout@v4
        run: ls
      - name: Step two of job2
